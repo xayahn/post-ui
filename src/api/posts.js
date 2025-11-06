@@ -5,7 +5,7 @@
 // PUT  /api/posts/{id}
 // DELETE /api/posts/{id}
 
-const base = '/api/posts';
+const base = 'https://post-api-drkg.onrender.com/api/posts';
 
 async function handleResp(res) {
   if (!res.ok) {
